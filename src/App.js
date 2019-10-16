@@ -4,6 +4,7 @@ import Members from "./components/Member";
 import MemberForm from "./components/MemberForms";
 //mimic fetching data from an API
 import data from "./data";
+import "./App.css";
 
 function App() {
   const [members, setMembers] = useState(data);

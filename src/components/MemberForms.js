@@ -20,10 +20,11 @@ const MemberForm = props => {
       <input
         name="name"
         id="name"
-        type="name"
+        type="text"
         placeholder="Name"
         onChange={changeHandler}
         value={member.name}
+        required
       />
 
       <label htmlFor="github">GitHub</label>
